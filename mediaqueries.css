@@ -1,0 +1,118 @@
+/* For screens with a maximum width of 1400px */
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh; /* Ensure profile section height is appropriate */
+        margin-bottom: 6rem; /* Spacing below profile section */
+    }
+
+    .about-containers {
+        flex-wrap: wrap; /* Allow containers to wrap */
+    }
+}
+
+/* For screens with a maximum width of 1200px */
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none; /* Hide desktop navigation on smaller screens */
+    }
+
+    #hamburger-nav {
+        display: flex; /* Show hamburger navigation */
+    }
+
+    #experience, .experience-details-container {
+        margin-top: 2rem; /* Spacing above experience section */
+    }
+
+    #profile, .section-container {
+        display: block; /* Ensure these sections display as blocks */
+    }
+
+    .arrow {
+        display: none; /* Hide arrow icons */
+    }
+
+    section, .section-container {
+        height: auto; /* Allow height to adjust based on content */
+        margin: 0 5%; /* Margin for sections */
+    }
+
+    .section__pic-container {
+        width: 275px; /* Width of image containers */
+        height: 275px; /* Height of image containers */
+        margin: 0 auto 2rem; /* Center image containers and add margin */
+    }
+
+    .about-containers {
+        margin-top: 0; /* Reset margin for about containers */
+    }
+}
+
+/* For screens with a maximum width of 600px */
+@media screen and (max-width: 600px) {
+    #contact, footer {
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    #profile {
+        height: 83vh; /* Ensure profile section height remains appropriate */
+        margin-bottom: 0; /* Remove margin below profile section */
+    }
+
+    article {
+        font-size: 1rem; /* Font size for articles */
+    }
+
+    footer nav {
+        height: auto; /* Allow footer nav height to adjust based on content */
+        margin-bottom: 2rem; /* Margin below footer nav */
+    }
+
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+        flex-wrap: wrap; /* Allow containers to wrap */
+    }
+
+    .contact-info-container {
+        margin: 0; /* Reset margin for contact info containers */
+    }
+
+    .contact-info-container p,
+    .nav-links li a {
+        font-size: 1rem; /* Font size for contact info and nav links */
+    }
+
+    .experience-sub-title {
+        font-size: 1.25rem; /* Font size for experience titles */
+    }
+
+    .logo {
+        font-size: 1.5rem; /* Font size for logo */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack nav links vertically */
+        gap: 0.5rem; /* Gap between nav links */
+        text-align: center; /* Center align text */
+    }
+
+    .section__pic-container {
+        width: auto; /* Allow width to adjust */
+        height: 46vw; /* Set height based on viewport width */
+        display: flex; /* Ensure flex display for centering */
+        justify-content: center; /* Center image inside container */
+    }
+
+    .section__text__p2 {
+        font-size: 1.25rem; /* Font size for text */
+    }
+
+    .title {
+        font-size: 2rem; /* Font size for titles */
+    }
+
+    .text-container {
+        text-align: justify; /* Justify text alignment */
+    }
+}
